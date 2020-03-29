@@ -1,0 +1,1 @@
+ alert tcp any any -> any 1080 (flags:U;content:"hostip";depth:20;offset:10;msg:"TEST ALERT";sid:1000009;) 
